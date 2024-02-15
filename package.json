@@ -1,0 +1,19 @@
+{
+  "name": "basic-calculate",
+  "version": "1.0.0",
+  "description": "Basic calculate library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "tsc && node dist/test/test.js"
+  },
+  "author": "Marcos Luna Dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
