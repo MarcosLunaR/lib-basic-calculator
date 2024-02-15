@@ -1,9 +1,14 @@
 {
-  "name": "@mdlunadev/basic-calculate",
+  "name": "mdlunadev-lib-basic-calculate",
   "version": "1.0.0",
   "description": "Basic calculate library (Don`t use. Is a example lib for NodeJS).",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
+  "homepage": "https://github.com/MarcosLunaR/lib-basic-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcosLunaR/lib-basic-calculator"
+  },
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node --module commonjs",
